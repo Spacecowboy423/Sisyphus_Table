@@ -1,0 +1,86 @@
+/* BlogPost Page Styling */
+.blogPost {
+    padding: 32px 16px;
+}
+
+.blogPostContainer {
+    max-width: 1152px;
+    margin: 0 auto;
+}
+
+/* Header */
+.blogPostHeader {
+    margin-bottom: 16px;
+}
+
+.blogPostHeader h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.blogPostIntro {
+    font-size: 20px;
+    margin-bottom: 32px;
+    text-align: center;
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Introduction Box */
+.introBox {
+    margin-bottom: 32px;
+}
+
+.introBox h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.introBox p {
+    margin-bottom: 16px;
+}
+
+/* Key Learnings Section */
+.learningsContainer {
+    margin-top: 48px;
+}
+
+.learningsContainer h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.learningsGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+}
+
+.learningColumn h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #4f46e5;
+    margin-bottom: 8px;
+}
+
+.learningColumn ul {
+    list-style-type: disc;
+    padding-left: 24px;
+    margin: 0;
+}
+
+.learningColumn li {
+    margin-bottom: 4px;
+}
+
+/* Responsive Design */
+@media screen and (min-width: 768px) {    
+    .learningsGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

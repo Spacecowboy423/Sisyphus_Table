@@ -1,0 +1,62 @@
+/* Contact Page Styling */
+.contact {
+    padding: 32px 16px;
+}
+
+.contactContainer {
+    max-width: 1152px;
+    margin: 0 auto;
+}
+
+.contactContainer h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.contactIntro {
+    font-size: 20px;
+    margin-bottom: 32px;
+    text-align: center;
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Base styles for the contact page */
+.contactDisplay {
+    display: flex;
+    gap: 32px;
+}
+
+.contactInfoSection {
+    width: 40%;
+}
+
+.contactInfoSection h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.contactImage {
+    margin-top: 24px;
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Media query for screens smaller than 768px */
+@media screen and (max-width: 768px) {
+    .contactDisplay {
+        display: block; /* Show the button on small screens */  
+    }
+
+    .contactInfoSection {
+        width: 100%;
+    }
+}

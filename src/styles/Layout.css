@@ -1,0 +1,75 @@
+/* Navbar Styling */
+nav {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;   /* change color of hamburger */
+    padding: 5px;
+    display: none; /* Hide the button by default */
+}
+
+nav button:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Light hover effect */
+    border-radius: 4px; /* Rounded corners on hover */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Display is row by default */
+    justify-content: center; /* Center the nav items */
+    gap: 10px; /* Space between nav items */
+}
+
+nav li {
+    margin: 0px; /* Remove default margin */
+}
+
+nav li a {
+    display: block;
+    color: white; /* Link color */
+    text-decoration: none;
+    padding: 15px 25px; /* Link padding horizontal and vertical, applies to both responsive views so made slightly larger to accommodate*/
+    border-radius: 10px; /* Link border radius */
+    font-weight: 500; /* Link font weight */
+    font-size: 1.1rem; /* Link font size */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Create highlighted box on hover */
+nav li a:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Media query for screens smaller than 768px */
+@media screen and (max-width: 768px) {
+    nav {
+        padding: 10px; /* Reduce padding for smaller screens */
+    }
+
+    nav button {
+        display: block; /* Show the button on small screens */  
+    }
+
+    nav ul {
+        display: none; /* Hide the menu by default on smaller screens */
+        flex-direction: column; /* Stack items vertically */
+    }
+
+    .isOpen ul {
+        display: flex; /* Show the menu when isOpen is true */
+        flex-direction: column; /* Ensure items stack vertically when open */
+    }
+}
+

@@ -1,0 +1,39 @@
+/* About Page Styling */
+
+.about {
+    padding: 32px 16px;
+}
+
+.aboutContainer {
+    max-width: 1152px;
+    margin: 0 auto;
+}
+
+.aboutContainer h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.aboutContainer p {
+    font-size: 20px;
+    margin-bottom: 32px;
+    text-align: center;
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Base styles for the about page */
+.aboutDisplay {
+    display: flex;
+    gap: 32px;
+}
+
+/* Media query for screens smaller than 768px */
+@media screen and (max-width: 768px) {
+    .aboutDisplay {
+        display: block; /* Show the button on small screens */  
+    }
+}
