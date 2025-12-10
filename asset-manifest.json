@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Sisyphus_Table/static/css/main.74e02787.css",
-    "main.js": "/Sisyphus_Table/static/js/main.e0225560.js",
+    "main.js": "/Sisyphus_Table/static/js/main.79ea833a.js",
     "index.html": "/Sisyphus_Table/index.html",
     "main.74e02787.css.map": "/Sisyphus_Table/static/css/main.74e02787.css.map",
-    "main.e0225560.js.map": "/Sisyphus_Table/static/js/main.e0225560.js.map"
+    "main.79ea833a.js.map": "/Sisyphus_Table/static/js/main.79ea833a.js.map"
   },
   "entrypoints": [
     "static/css/main.74e02787.css",
-    "static/js/main.e0225560.js"
+    "static/js/main.79ea833a.js"
   ]
 }
