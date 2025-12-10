@@ -51,7 +51,7 @@ const Contact = () => {
 
             <img
               className="contactImage"
-              src="../images/Profile Pic.jpg"
+              src={process.env.PUBLIC_URL + "/images/Profile Pic.jpg"}
               alt="The Builder"
             />
           </div>

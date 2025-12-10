@@ -11,7 +11,7 @@ import "./App.css";
 function App() {
 // Render the App component inside a BrowserRouter to enable routing
   return(
-    <BrowserRouter>
+    <BrowserRouter basename="/Sisyphus_Table">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />

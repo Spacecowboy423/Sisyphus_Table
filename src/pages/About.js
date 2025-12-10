@@ -28,8 +28,8 @@ const About = () => {
             <video
               className="mt-6 w-full h-auto rounded-lg shadow-lg"
               style={{ height: '400px', objectFit: 'cover' }}
-              src="../images/DisplayLightsFinished.mp4"
-              poster="../images/Finish Top Lights.jpg"
+              src={process.env.PUBLIC_URL + "/images/DisplayLightsFinished.mp4"}
+              poster={process.env.PUBLIC_URL + "/images/Finish Top Lights.jpg"}
               type="video/mp4"
               controls
               loop
